@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    background-color: rgb(161, 203, 255);
+    background-size:  cover;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    align-items: center;
+    height: 4.5rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(0, 82, 165, 0.6);
+    
+}
+.imagenHeader{
+    margin-right: 10px;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+}
+
+.tituloHeader{
+    display: flex;
+    font-weight: 800;
+}
+
+.linkHeader {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(201, 238, 255);
+}
+
+.nav {
+    font-weight: 600;
+    margin-right: 2rem;
+    display: flex;
+    padding: 30px;
+    list-style: none;
+}
+
+.linkLista {
+    display: block;
+    color: rgb(201, 238, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+.linkLista:hover{
+    color: rgb(126, 201, 255);
+}
+
+.seccionTitulo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/Images/agua.jpg);
+    padding: 6rem;
+
+    
+
+}
+
+.tituloEmpresa {
+    color: rgb(240, 240, 240);
+    margin-right: 20rem;
+    margin-left: 20rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+
+.imagenCard{
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+.tituloCard {
+    color: black;
+    font-weight: 900;
+}
+
+.textoCard{
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.linkCard {
+    text-decoration: none;
+}
+
+.divCard {
+    display: flex;
+    justify-content: space-between;
+}
+.Card {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px;
+    width: 500px;
+    background-color: rgb(93, 163, 255);
+}
+
+
+.footer{
+    padding: 6rem;
+    background-color: rgba(0, 0, 0, 0.704);
+    
+}
+
+.textoFooter {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.derechos {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logoWpp {
+    width: 4rem;
+}
