@@ -75,10 +75,14 @@ body{
 
 }
 
+.espacio {
+    display: flex;
+    justify-content: space-between;
+}
 .imagenCard{
     border-radius: 10px;
-    width: 500px;
-    height: 350px;
+    width: 32rem;
+    height: 22rem;
 }
 
 .tituloCard {
@@ -89,17 +93,13 @@ body{
 .textoCard{
     color: black;
     font-size: larger;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .linkCard {
     text-decoration: none;
 }
 
-.divCard {
-    display: flex;
-    justify-content: space-between;
-}
 .Card {
     justify-content: space-between;
     display: flex;
@@ -137,3 +137,4 @@ body{
 .logoWpp {
     width: 4rem;
 }
+
